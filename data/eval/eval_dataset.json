@@ -1,0 +1,58 @@
+[
+  {
+    "query": "年假需要提前多久申请？",
+    "expected_source": "leave_policy.md",
+    "expected_keywords": ["3个工作日"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "病假超过几天需要提供证明？",
+    "expected_source": "leave_policy.md",
+    "expected_keywords": ["超过2天", "二级及以上医院", "病假证明"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "系统支持上传哪些文档格式？",
+    "expected_source": "product_faq.txt",
+    "expected_keywords": ["TXT", "Markdown", "PDF"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "第一版项目的核心目标是什么？",
+    "expected_source": "product_faq.txt",
+    "expected_keywords": ["文档读取", "文本切分", "向量化", "检索", "基础问答"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "入职当天几点前需要报到？",
+    "expected_source": "onboarding_guide.pdf",
+    "expected_keywords": ["9:30前", "前台办理报到"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "员工每周至少到岗几天？",
+    "expected_source": "onboarding_guide.pdf",
+    "expected_keywords": ["4天"],
+    "answerable": true,
+    "case_type": "answerable"
+  },
+  {
+    "query": "公司年假一共有几天？",
+    "expected_source": "leave_policy.md",
+    "expected_keywords": [],
+    "answerable": false,
+    "case_type": "insufficient_evidence"
+  },
+  {
+    "query": "公司是否支持远程办公两天以上？",
+    "expected_source": "",
+    "expected_keywords": [],
+    "answerable": false,
+    "case_type": "out_of_scope"
+  }
+]

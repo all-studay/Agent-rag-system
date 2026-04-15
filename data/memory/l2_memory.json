@@ -1,0 +1,65 @@
+[
+  {
+    "memory_id": "c7353212-93e9-4699-92cb-248cf9a86744",
+    "memory_type": "project_fact",
+    "content": "系统第一版支持 TXT、Markdown（.md）和 PDF 文档，后续计划增加 Word、Excel 和网页内容接入。",
+    "importance": "high",
+    "source_session_id": "session-1776177622004",
+    "source_query": "系统支持上传哪些文档格式？",
+    "created_at": "2026-04-14T22:44:46"
+  },
+  {
+    "memory_id": "4edec72f-d867-44c2-bc22-431d2038c737",
+    "memory_type": "project_fact",
+    "content": "第一版项目核心目标是打通文档读取、文本切分、向量化、检索到基础问答的最小闭环链路，而非直接构建复杂 Agent。",
+    "importance": "high",
+    "source_session_id": "langchain-test-session",
+    "source_query": "第一版项目的核心目标是什么？",
+    "created_at": "2026-04-15T10:29:46"
+  },
+  {
+    "memory_id": "09c8f6e9-4b80-4cd9-9e99-5b123eda091a",
+    "memory_type": "progress_update",
+    "content": "当前项目已经实现的关键能力包括：检索、问答。",
+    "importance": "medium",
+    "source_session_id": "langchain-test-session",
+    "source_query": "第一版项目的核心目标是什么？",
+    "created_at": "2026-04-15T10:29:46"
+  },
+  {
+    "memory_id": "d4f284d6-8e9c-4dfc-89fe-58ef615647f0",
+    "memory_type": "project_fact",
+    "content": "系统在处理长对话时会保留最近几轮消息，并在历史内容过长时生成摘要，保留用户目标、关键约束、已完成步骤和待解决问题。",
+    "importance": "high",
+    "source_session_id": "langchain-test-session",
+    "source_query": "系统支持记忆功能吗？",
+    "created_at": "2026-04-15T10:30:00"
+  },
+  {
+    "memory_id": "316c6747-af00-4b83-9dd7-9c427c995f10",
+    "memory_type": "project_fact",
+    "content": "系统支持分层记忆，当前规划的记忆体系包括 L0（当前工作记忆）、L1（会话记忆）、L2（长期偏好记忆）和 L3（经验记忆）。",
+    "importance": "high",
+    "source_session_id": "langchain-test-session",
+    "source_query": "系统支持记忆功能吗？",
+    "created_at": "2026-04-15T10:30:00"
+  },
+  {
+    "memory_id": "72d2e601-bd91-4653-86b8-62e17d7750a7",
+    "memory_type": "progress_update",
+    "content": "当前项目已经实现的关键能力包括：检索、记忆、长对话摘要。",
+    "importance": "medium",
+    "source_session_id": "langchain-test-session",
+    "source_query": "系统支持记忆功能吗？",
+    "created_at": "2026-04-15T10:30:00"
+  },
+  {
+    "memory_id": "7cfe1650-334e-4bc0-aee5-7221b1d5b628",
+    "memory_type": "progress_update",
+    "content": "当前项目已经实现的关键能力包括：检索、记忆。",
+    "importance": "medium",
+    "source_session_id": "faq-langgraph-1",
+    "source_query": "系统支持记忆功能吗",
+    "created_at": "2026-04-15T10:59:13"
+  }
+]
